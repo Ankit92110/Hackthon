@@ -6,11 +6,10 @@ const Footer = () => {
   return (
     <Box className="footer">
       <Box>
-        <img src="logo_dark.svg" alt="QKart-icon"></img>
+        
       </Box>
       <p className="footer-text">
-        QKart is your one stop solution to the buy the latest trending items
-        with India's Fastest Delivery to your doorstep
+      No matter which field of work you want to go in, it is of great importance to learn at least one programming language
       </p>
     </Box>
   );

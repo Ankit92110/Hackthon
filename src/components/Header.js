@@ -18,12 +18,11 @@ const Header = ({ children, hasHiddenAuthButtons }) => {
 
     localStorage.clear();
   }
-  // if(hasHiddenAuthButtons)
 
     return (
       <Box className="header">
         <Box className="header-title">
-            <img src="logo_light.svg" alt="QKart-icon"></img>
+            
         </Box>
         {hasHiddenAuthButtons ? (
         <Button
